@@ -1,0 +1,213 @@
+body {
+  font-family: 'Spectral', sans-serif;
+  font-weight: 300;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  color: #39603D;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  color: #3C403D;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('images/jumbotron_bg.JPG');
+  background-size: cover;
+  background-color: #ffffff;
+  color: #ffffff;
+  max-width: 100%;
+  min-height: 650px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+  color: #39603D;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+#aboutMe {
+  font-size: 44px;
+  font-weight: 350;
+  margin: 0;
+  color: #39603D;
+}
+
+#aboutMeBox {
+  background-color: #DADED4;
+}
+
+#education {
+  font-size: 44px;
+  font-weight: 350;
+  margin: 0;
+  color: #39603D;
+}
+
+#educationBox {
+  background-color: #d3dfdc;
+}
+
+#experiences {
+  font-size: 44px;
+  font-weight: 350;
+  margin: 0;
+  color: #39603D;
+}
+
+#myExperiencesBox {
+  background-color: #f3f2f1;
+}
+
+#summer2019ExperienceBox {
+  background-color: #ffffff;
+}
+
+#summer2020ExperienceBox {
+  background-color: #ffffff;
+}
+
+#projects {
+  font-size: 44px;
+  font-weight: 350;
+  margin: 0;
+  color: #39603D;
+}
+
+#projectsBox {
+  background-color: #DADED4;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.col-sm-12 {
+  background-color: #f3f2f1;
+}
+
+.btn-outline-secondary {
+  background-color: #ffffff;
+  color: #3c403d;
+  margin: 0 0 30px;
+}
+
+.btn.btn-outline-secondary:hover {
+  color: #ffffff;
+  background-color: #3c403d;
+}
+
+footer {
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 34px;
+  height: 34px;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s; /*Safari, Chrome, Opera*/
+  -moz-animation: fadeIn ease 3s; /*Firefox*/
+  -o-animation: fadeIn ease 3s; /*Opera*/
+  -ms-animation: fadeIn ease 3s; /*IE*/
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
